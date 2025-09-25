@@ -1,0 +1,14 @@
+@use'colors';
+@import{
+    
+}
+@mixin information-preffered{
+    color: color.$primery-gray;
+
+}
+@mixin information-necessaray{
+    color: color.$primary-black;
+}
+@mixin information-sparringly ($color:color.$primary-red){
+    color:$color;
+} 

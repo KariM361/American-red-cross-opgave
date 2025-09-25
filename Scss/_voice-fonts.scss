@@ -1,0 +1,11 @@
+@use'colors';
+
+@mixin voice-preffered{
+    color: color.$primery-gray;
+}
+@mixin voice-necessaray{
+    color: color.$primary-black;
+}
+@mixin voice-sparringly ($color:color.$primary-red){
+    color:$color;
+} 
