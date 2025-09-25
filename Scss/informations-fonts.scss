@@ -1,14 +1,16 @@
 @use'colors';
-@import{
-    
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @mixin information-preffered{
     color: color.$primery-gray;
-
+    font-family: "Roboto", sans-serif;
 }
 @mixin information-necessaray{
     color: color.$primary-black;
+    font-family: "Roboto", sans-serif;
 }
 @mixin information-sparringly ($color:color.$primary-red){
     color:$color;
+    font-family: "Roboto", sans-serif;
 } 

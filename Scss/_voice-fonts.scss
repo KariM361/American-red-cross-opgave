@@ -1,11 +1,16 @@
 @use'colors';
 
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 @mixin voice-preffered{
     color: color.$primery-gray;
+     font-family: "SUSE Mono", sans-serif;
 }
 @mixin voice-necessaray{
     color: color.$primary-black;
+     font-family: "SUSE Mono", sans-serif;
 }
 @mixin voice-sparringly ($color:color.$primary-red){
     color:$color;
+     font-family: "SUSE Mono", sans-serif;
 } 
